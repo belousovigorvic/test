@@ -1,5 +1,6 @@
 import './App.css'
 import { useState } from 'react'
+import Component from "./Component/Component.jsx";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -11,6 +12,8 @@ function App() {
             <h3>{count}</h3>
             <button onClick={()=>{setCount(prev=>prev+1)}}>Click the button!</button>
             <input type="text"/>
+
+            <Component />
         </>
     )
 }
