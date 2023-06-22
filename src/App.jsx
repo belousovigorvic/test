@@ -10,6 +10,7 @@ function App() {
             <h2>Hi</h2>
             <h3>{count}</h3>
             <button onClick={()=>{setCount(prev=>prev+1)}}>Click the button!</button>
+            <input type="text"/>
         </>
     )
 }
